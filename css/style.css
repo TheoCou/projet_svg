@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100&display=swap%27');
+
+/* reset */
+
+html {
+    Font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2b2a33;
+    margin: 0;
+    text-align: left;
+}
+
+header {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+
+}
+
+ul,
+li {
+    position: relative;
+    list-style: none;
+}
+
+ul {
+    color: white;
+}
+
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.toggle-pannel {
+    font-size: small;
+    display: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+button {
+    border: none;
+    background-color: white;
+    height: min-content;
+    width: min-content;
+    margin: 1rem 1rem 1rem 25rem;
+    padding: 1rem;
+    position: relative;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    color: #2b2a33;
+    font-size: 3rem;
+
+    position: relative;
+    padding-left: 2rem;
+
+}
+
+h3 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+p {
+    text-align: left;
+    font-size: 2rem;
+}
+
+img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.visible-pannel {
+    background-color: white;
+    border-radius: 1rem;
+    display: inline-flex;
+
+}
